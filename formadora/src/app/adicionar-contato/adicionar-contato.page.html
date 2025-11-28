@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Adicionar Contato</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">adicionar-contato</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <form (ngSubmit)="adicionarContato()" class="form-container">
+    <ion-item>
+      <ion-label position="stacked">Nome</ion-label>
+      <ion-input 
+        [(ngModel)]="contato.name" 
+        name="name"
+        placeholder="Digite o nome"
+      ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">E-mail</ion-label>
+      <ion-input 
+        [(ngModel)]="contato.email" 
+        name="email"
+        type="email"
+        placeholder="Digite o e-mail"
+      ></ion-input>
+    </ion-item>
+
+    <ion-button expand="block" type="submit" class="ion-margin-top">
+      Adicionar Contato
+    </ion-button>
+    <ion-button expand="block" routerLink="/listar-contatos" class="ion-margin-top1">
+      Voltar
+    </ion-button>
+  </form>
+</ion-content>

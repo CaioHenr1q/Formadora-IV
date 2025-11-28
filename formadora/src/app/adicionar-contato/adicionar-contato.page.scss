@@ -1,0 +1,44 @@
+.form-container {
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+ion-item {
+  --border-radius: 8px;
+  margin-bottom: 16px;
+  --min-height: 60px;
+}
+
+ion-label[position="stacked"] {
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+ion-input {
+  font-size: 1em;
+}
+
+ion-button {
+  --border-radius: 8px;
+  --padding-top: 18px;
+  --padding-bottom: 18px;
+  margin-top: 25px;
+  --background: #3880ff;
+  
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+ion-toolbar {
+  --background: #3880ff;
+  --color: white;
+  text-align: center;
+}
+
+.ion-margin-top1{
+    color: white;
+    --background:red
+}
