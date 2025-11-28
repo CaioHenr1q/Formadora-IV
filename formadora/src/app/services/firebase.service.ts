@@ -10,14 +10,14 @@ export interface Contato {
 }
 //adicione as credenciais do firebase para funcionar
 export const firebaseConfig = {
-  apiKey: "AIzaSyB5t_rQsmbK9i2yoV5Ijm_foHiBw0cFGbA",
-  authDomain: "formadora-4.firebaseapp.com",
-  databaseURL: "https://formadora-4-default-rtdb.firebaseio.com",
-  projectId: "formadora-4",
-  storageBucket: "formadora-4.firebasestorage.app",
-  messagingSenderId: "185150678912",
-  appId: "1:185150678912:web:01b4a3425b2815f6990365",
-  measurementId: "G-Q1GPN50XB4"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 @Injectable({
